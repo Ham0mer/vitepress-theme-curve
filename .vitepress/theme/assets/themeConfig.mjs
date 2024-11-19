@@ -3,27 +3,27 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "QwQ",
     // 站点描述
-    description: "Hello World",
+    description: "不知写什么",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog.imsyy.top",
+    site: "https://qwq.gs",
     // 语言
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
+      name: "bossli",
       cover: "/images/logo/logo.webp",
-      email: "114514@gmail.com",
-      link: "https://www.imsyy.top",
+      email: "w@qwq.gs",
+      link: "https://qwq.gs",
     },
   },
   // 备案信息
-  icp: "萌ICP备114514号",
+  icp: "蒙ICP备19003209号-8",
   // 建站日期
-  since: "2020-07-28",
+  since: "2024-11-17",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -40,7 +40,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://blog.imsyy.top/rss.xml",
+          href: "https://qwq.gs/rss.xml",
         },
       ],
       // 预载 CDN
@@ -137,7 +137,7 @@ export const themeConfig = {
       text: "我的",
       items: [
         { text: "畅所欲言", link: "/pages/message", icon: "chat" },
-        { text: "致谢名单", link: "/pages/thanks", icon: "reward" },
+        { text: "必应壁纸", link: "/pages/bing", icon: "reward" },
         { text: "关于本站", link: "/pages/about", icon: "contacts" },
       ],
     },
@@ -227,9 +227,8 @@ export const themeConfig = {
       coverLayout: 'both',
       // 默认封面(随机展示)
       defaultCover: [
-        'https://example.com/1.avif',
-        'https://example.com/2.avif',
-        'https://example.com/3.avif'
+        'https://bing.dogb.cn/img/2024/11/04/2024-11-04_hd.jpg',
+        'https://bing.dogb.cn/api/getImage',
       ]
     }
   },
@@ -239,27 +238,11 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:one@imsyy.top",
-      },
-      {
-        icon: "github",
-        link: "https://www.github.com/imsyy/",
+        link: "mailto:w@qwq.gs",
       },
       {
         icon: "telegram",
-        link: "https://t.me/bottom_user",
-      },
-      {
-        icon: "bilibili",
-        link: "https://space.bilibili.com/98544142",
-      },
-      {
-        icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
-      },
-      {
-        icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
+        link: "https://t.me/shop_yuan",
       },
     ],
     // sitemap
@@ -302,12 +285,12 @@ export const themeConfig = {
       {
         text: "服务",
         items: [
-          { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
+          { text: "站点状态", link: "https://status.qwq.gs/", newTab: true },
+          { text: "必应每日壁纸", link: "https://bing.qwq.gs/", newTab: true },
+          { text: "站点订阅", link: "https://qwq.gs/rss.xml", newTab: true },
           {
             text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
+            link: "mailto:w@qwq.gs",
             newTab: true,
           },
         ],
@@ -316,15 +299,15 @@ export const themeConfig = {
   },
   // 评论
   comment: {
-    enable: false,
+    enable: true,
     // 评论系统选择
     // artalk / twikoo
     type: "artalk",
     // artalk
     // https://artalk.js.org/
     artalk: {
-      site: "",
-      server: "",
+      site: "QwQ",
+      server: "https://artalk.qwq.gs",
     },
     // twikoo
     // https://twikoo.js.org/
@@ -380,11 +363,11 @@ export const themeConfig = {
   // 音乐播放器
   // https://github.com/imsyy/Meting-API
   music: {
-    enable: false,
+    enable: true,
     // url
-    url: "https://api-meting.example.com",
+    url: "https://api-meting.efefee.cn",
     // id
-    id: 9379831714,
+    id: 2619366284,
     // netease / tencent / kugou
     server: "netease",
     // playlist / album / song
@@ -394,8 +377,8 @@ export const themeConfig = {
   // https://www.algolia.com/
   search: {
     enable: false,
-    appId: "",
-    apiKey: "",
+    appId: "RNV09YSTHI",
+    apiKey: "6111ca633c3ba57d78c8cfaf086cb617",
   },
   // 打赏
   rewardData: {
