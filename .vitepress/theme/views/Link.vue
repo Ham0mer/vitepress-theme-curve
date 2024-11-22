@@ -15,20 +15,6 @@
           </div>
         </div>
       </template>
-      <!-- <div class="link-group">
-        <div v-for="(link, index) in pairedLinks(allLinkData)" :key="index" class="link-group-item">
-          <a v-for="(item, i) in link" :key="i" :href="item.url" class="link-logo">
-            <LazyLoader>
-              <img
-                :src="item.avatar"
-                :alt="item.name"
-                class="link-logo-img"
-                @load="(e) => e.target.classList.add('loaded')"
-              />
-            </LazyLoader>
-          </a>
-        </div>
-      </div> -->
     </Banner>
     <!-- 友链数据 -->
     <LinkList :listData="linkData" :useFriendsLink="true" />
