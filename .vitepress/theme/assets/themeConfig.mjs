@@ -154,7 +154,7 @@ export const themeConfig = {
         {
           icon: "/images/logo/logo.webp",
           name: "博客镜像站",
-          url: "https://blog-backup.imsyy.top/",
+          url: "https://vitepress-theme-curve-nine.vercel.app/",
         },
       ],
     },
@@ -163,18 +163,18 @@ export const themeConfig = {
       list: [
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "起始页",
-          url: "https://nav.imsyy.top/",
+          name: "壁纸",
+          url: "https://bing.qwq.gs/",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "今日热榜",
-          url: "https://hot.imsyy.top/",
+          name: "服务器监控",
+          url: "https://s.qwq.gs/",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
           name: "站点监测",
-          url: "https://status.imsyy.top/",
+          url: "https://k.qwq.gs/",
         },
       ],
     },
@@ -226,8 +226,8 @@ export const themeConfig = {
       coverLayout: 'both',
       // 默认封面(随机展示)
       defaultCover: [
-        'https://bing.dogb.cn/img/2024/11/04/2024-11-04_hd.jpg',
-        'https://bing.dogb.cn/api/getImage',
+        'https://bing.qwq.gs/img/2024/11/04/2024-11-04_hd.jpg',
+        'https://bing.qwq.gs/api/getImage',
       ]
     }
   },
@@ -284,8 +284,9 @@ export const themeConfig = {
       {
         text: "服务",
         items: [
-          { text: "站点状态", link: "https://status.qwq.gs/", newTab: true },
+          { text: "站点监控", link: "https://k.qwq.gs/", newTab: true },
           { text: "必应每日壁纸", link: "https://bing.qwq.gs/", newTab: true },
+          { text: "服务器监控", link: "https://s.qwq.gs/", newTab: true },
           { text: "站点订阅", link: "https://qwq.gs/rss.xml", newTab: true },
           {
             text: "反馈投诉",
