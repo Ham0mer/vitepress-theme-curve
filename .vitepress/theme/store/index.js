@@ -51,7 +51,7 @@ export const mainStore = defineStore("main", {
       lastScrollY: 0,
       // 站点背景
       backgroundType: "patterns",
-      backgroundUrl: "https://bing.dogb.cn/api/getImage",
+      backgroundUrl: "https://bing.qwq.gs/api/getImage",
     };
   },
   getters: {},
