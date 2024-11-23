@@ -2,74 +2,21 @@
   <div class="about">
     <h1 class="title">关于本站</h1>
     <div class="about-content" style="grid-template-columns: 3fr 2fr">
-      <!-- 介绍 -->
-      <div class="about-item hello">
-        <span class="text1">你好，很高兴认识你👋</span>
-        <span class="text2 title2">我是 無名</span>
-        <span class="text3">是一名 前端开发工程师、独立开发者、博主</span>
-      </div>
-      <!-- 追求 -->
-      <div class="about-item pursuit">
-        <span class="tip">追求</span>
-        <span class="title2">源于</span>
-        <span class="title2">热爱而去开发</span>
-        <span class="title2">优秀的作品</span>
-      </div>
-    </div>
-    <div class="about-content" style="grid-template-columns: 2fr 3fr">
-      <!-- 技能 -->
-      <div class="about-item skills">
-        <span class="tip">技能</span>
-        <span class="title2">开启创造力</span>
-        <div class="skills-list">
-          <a
-            v-for="(item, index) in skillsData"
-            :key="index"
-            :style="{ '--color': item.color }"
-            :href="item.link"
-            class="skills-item"
-            target="_blank"
-          >
-            <div class="skills-logo">
-              <i :class="`iconfont icon-${item.icon}`"></i>
-            </div>
-            <span class="skills-name">{{ item.name }}</span>
-          </a>
-        </div>
-      </div>
-      <!-- 生涯 -->
-      <div class="about-item career">
-        <span class="tip">生涯</span>
-        <span class="title2">
-          <i>無限進步</i>
-        </span>
-        <div class="list">
-          <span class="list-item" style="--color: #357ef5">ZZRVTC · 计算机应用技术</span>
-          <span class="list-item" style="--color: #eb372a">FE · 前端开发工程师</span>
-        </div>
-        <img
-          class="career-img"
-          src="https://pic.efefee.cn/uploads/2024/02/22/65d71db18bcf9.png"
-          alt="career"
-        />
-      </div>
-    </div>
-    <div class="about-content" style="grid-template-columns: 3fr 2fr">
       <!-- 性格 -->
       <div class="about-item character" style="--color: #4298b4">
         <span class="tip">性格</span>
-        <span class="title2">物流师</span>
-        <span class="title2" style="color: var(--color)">ISTJ-A / ISTJ-T</span>
+        <span class="title2">总经理</span>
+        <span class="title2" style="color: var(--color)">ESTJ-T</span>
         <span class="more">
           在
           <a href="https://www.16personalities.com/ch/" target="_blank">16personalities</a>
           了解更多关于
           <a href="https://www.16personalities.com/ch/istj-%E4%BA%BA%E6%A0%BC" target="_blank">
-            物流师
+          总经理
           </a>
         </span>
         <img
-          src="https://pic.efefee.cn/uploads/2024/02/22/65d6bc7ae72ae.png"
+          src="https://pp.qwq.gs/i/2024/11/23/vns7uo.png"
           alt="male"
           class="male"
         />
@@ -77,8 +24,8 @@
       <!-- 座右铭 -->
       <div class="about-item">
         <span class="tip">座右铭</span>
-        <span class="title1" style="margin-top: 20px">脚踏实地，</span>
-        <span class="title2">一丝不苟。</span>
+        <span class="title1" style="margin-top: 20px">绕远路，</span>
+        <span class="title2">是我的捷径。</span>
       </div>
     </div>
     <div class="about-content" style="grid-template-columns: 1fr 1fr">
@@ -86,7 +33,7 @@
         class="about-item like image"
         style="
           --color: #0c0e20;
-          background-image: url(https://pic.efefee.cn/uploads/2024/02/27/65dd812567723.webp);
+          background-image: url(https://pp.qwq.gs/i/2024/11/23/vmcxsr.webp);
         "
       >
         <div class="image-content">
@@ -101,7 +48,7 @@
         class="about-item like image"
         style="
           --color: #7b3c25;
-          background-image: url(https://pic.efefee.cn/uploads/2024/02/27/65dd836099d16.webp);
+          background-image: url(https://pp.qwq.gs/i/2024/11/23/vlxhon.webp);
         "
       >
         <div class="image-content">
@@ -119,7 +66,7 @@
         class="about-item static image"
         style="
           --color: #0f1114;
-          background-image: url(https://pic.efefee.cn/uploads/2024/04/15/661c8fbf226d3.webp);
+          background-image: url(https://pp.qwq.gs/i/2024/11/23/vlh75u.webp);
         "
       >
         <div class="image-content">
