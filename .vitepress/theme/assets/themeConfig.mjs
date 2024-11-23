@@ -21,7 +21,7 @@ export const themeConfig = {
     },
   },
   // 备案信息
-  icp: "蒙ICP备19003209号-8",
+  icp: "暂无备案",
   // 建站日期
   since: "2024-11-17",
   // 每页文章数据
