@@ -419,6 +419,6 @@ export const themeConfig = {
   },
   // 站点统计
   tongji: {
-    "51la": "",
+    "51la": "yCwOuJIAAcBaRSiHhECy1gFC6CP8mS3z",
   },
 };
