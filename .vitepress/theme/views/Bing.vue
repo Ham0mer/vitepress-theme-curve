@@ -8,7 +8,7 @@
                     class="bing-item like image"
                     :style="{
                         '--color': item.color.DarkVibrant,
-                        'background-image': `url(https://bing.dogb.cn${item.url.thumbnail})`
+                        'background-image': `url(https://bing.qwq.gs${item.url.thumbnail})`
                     }"
                 >
                     <div class="image-content">

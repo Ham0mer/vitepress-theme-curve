@@ -2,7 +2,7 @@
  * 获取bing壁纸
  */
 export const getBing = async () => {
-  const result = await fetch("https://bing.dogb.cn/api/getList?pageSize=3&currentPage=1");
+  const result = await fetch("https://bing.qwq.gs/api/getList?pageSize=3&currentPage=1");
   const bing = await result.json();
   return bing;
 };
