@@ -4,7 +4,7 @@ tags: [测评]
 categories: [主机测评]
 date: 2024-11-23
 description: ClawCloud 日本G口 2C2G40G1T 4刀/月
-articleGPT: 这是一篇初始化文章，旨在告诉用户一些使用说明和须知。
+articleGPT: ClawCloud日本VPS测评，包含配置和性能数据。
 cover: https://pp.qwq.gs/i/2024/11/23/xedg9l.png
 ---
 

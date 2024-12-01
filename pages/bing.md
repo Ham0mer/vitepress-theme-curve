@@ -18,14 +18,14 @@ import Bing from "@/views/Bing.vue"
 
 请求方法: `GET`
 
-默认地址: `https://bing.dogb.cn/api/getImage` 
+默认地址: `https://bing.qwq,gs/api/getImage` 
 
 参数(query): 无。
 
 请求示例:
 
 ```GET
-https://bing.dogb.cn/api/getImage
+https://bing.qwq,gs/api/getImage
 ```
 
 返回示例: 直接返回当天图片，可直接用作图片URL。
@@ -36,7 +36,7 @@ https://bing.dogb.cn/api/getImage
 
 请求方法: `GET`
 
-默认地址: `https://bing.dogb.cn/api/getList` 
+默认地址: `https://bing.qwq,gs/api/getList` 
 
 参数(query):
 
@@ -48,7 +48,7 @@ https://bing.dogb.cn/api/getImage
 请求示例:
 
 ```GET
-https://bing.dogb.cn//api/getList?pageSize=3&currentPage=2
+https://bing.qwq,gs//api/getList?pageSize=3&currentPage=2
 ```
 
 返回示例:
@@ -63,11 +63,11 @@ https://bing.dogb.cn//api/getList?pageSize=3&currentPage=2
             "date": "2021-04-15",
             "base64": "data:image/jpeg;base64,/9j/4AAQSkZJ...",
             "url": {
-                "hd": "https://bing.dogb.cn/img/2021/04/15/2021-04-15_hd.jpg",
-                "uhd": "https://bing.dogb.cn/img/2021/04/15/2021-04-15_uhd.jpg",
-                "gaussian": "https://bing.dogb.cn/img/2021/04/15/2021-04-15_hd_gaussian_20.jpg",
-                "greyscale": "https://bing.dogb.cn/img/2021/04/15/2021-04-15_hd_greyscale.jpg",
-                "thumbnail": "https://bing.dogb.cn/img/2021/04/15/2021-04-15_hd_thumbnail_480_270.jpg"
+                "hd": "https://bing.qwq,gs/img/2021/04/15/2021-04-15_hd.jpg",
+                "uhd": "https://bing.qwq,gs/img/2021/04/15/2021-04-15_uhd.jpg",
+                "gaussian": "https://bing.qwq,gs/img/2021/04/15/2021-04-15_hd_gaussian_20.jpg",
+                "greyscale": "https://bing.qwq,gs/img/2021/04/15/2021-04-15_hd_greyscale.jpg",
+                "thumbnail": "https://bing.qwq,gs/img/2021/04/15/2021-04-15_hd_thumbnail_480_270.jpg"
             },
             "color": {
                 "Muted": "#5182ac",
@@ -90,7 +90,7 @@ https://bing.dogb.cn//api/getList?pageSize=3&currentPage=2
 
 请求方法: `GET`
 
-默认地址: `https://bing.dogb.cn/api/getInfo` 
+默认地址: `https://bing.qwq,gs/api/getInfo` 
 
 参数(query):
 
@@ -101,7 +101,7 @@ https://bing.dogb.cn//api/getList?pageSize=3&currentPage=2
 请求示例:
 
 ```GET
-https://bing.dogb.cn/api/getInfo?id=1
+https://bing.qwq,gs/api/getInfo?id=1
 ```
 
 返回示例:
