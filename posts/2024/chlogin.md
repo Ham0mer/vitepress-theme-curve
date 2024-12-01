@@ -2,7 +2,7 @@
 title: 聚合登录开发文档
 tags: [聚合登录,OAuth2.0]
 categories: [聚合登录]
-date: 2024-11-23
+date: 2024-12-01
 description: 聚合登录开发文档
 articleGPT: 聚合登录开发文档。
 ---
