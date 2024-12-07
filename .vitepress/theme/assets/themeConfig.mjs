@@ -226,8 +226,7 @@ export const themeConfig = {
       coverLayout: 'both',
       // 默认封面(随机展示)
       defaultCover: [
-        'https://bing.qwq.gs/img/2024/11/04/2024-11-04_hd.jpg',
-        'https://bing.qwq.gs/api/getImage',
+        'https://bing.qwq.gs/api/getBing',
       ]
     }
   },
